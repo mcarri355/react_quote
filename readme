@@ -1,0 +1,32 @@
+# Random Quote Generator
+
+A website that renders in a random quote and re renders in a different random quote when the refresh button is hit.
+
+## Authors
+
+- [Matthew Carrillo](https://github.com/mcarri355)
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm i
+```
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run start
+```
+
+## API Reference
+
+````http
+https://api.quotable.io/random```
+
+
+Returns a random quote and the author
+````
