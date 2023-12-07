@@ -62,10 +62,9 @@ function App() {
   return (
     <div className="container">
       <h1>Random Quote</h1>
-      <blockquote>
-        <p>{quoteData.content}</p>
-        <footer>{quoteData.author}</footer>
-      </blockquote>
+      <br/>
+        <h2>" {quoteData.content} "</h2>
+        <h3>- {quoteData.author}</h3>
       <button onClick={handleRefresh}>Refresh</button>
     </div>
   );
